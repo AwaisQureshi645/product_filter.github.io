@@ -1,0 +1,37 @@
+* {
+    margin: 0%;
+    padding: 0;
+
+}
+
+.heaader {
+    width: 100%;
+    height: 12vh;
+    background-color: orange;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: sticky;
+    top: 0%;
+}
+
+.heaader li {
+    font-size: 20px;
+    background-color: rgb(76, 9, 97);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    outline: auto;
+}
+
+
+.images img{
+    margin-top: 1rem;
+    width:25rem;
+    height: 51vh;
+    overflow:wrap;
+}
